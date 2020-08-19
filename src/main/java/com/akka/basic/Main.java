@@ -7,7 +7,8 @@ public class Main {
   public static void main(String[] args) {
     ActorSystem<String> actorSystem = ActorSystem.create(BasicBehavior.create(), "firstActorSystem");
     actorSystem.tell("hi");
-    actorSystem.tell("how are you");
+    actorSystem.tell("who are you");
+    actorSystem.tell("create child");
     actorSystem.tell("dodododo");
   }
 }
